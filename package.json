@@ -1,14 +1,22 @@
 {
 	"name": "node",
 	"version": "0.1.0",
-	"description": "node",
-	"main": "trainer.js",
+	"description": "",
+	"main": "index.js",
 	"repository": "",
 	"author": "",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
 	"dependencies": {
-		"canvas": "latest",
-		"convnetjs": "latest",
-		"minimist": "latest",
-		"pngjs": "latest"
+		"axios": "^0.19.2",
+		"body-parser": "^1.19.0",
+		"canvas": "^2.6.1",
+		"convnetjs": "^0.3.0",
+		"cors": "^2.8.4",
+		"dotenv": "^6.0.0",
+		"express": "^4.17.1",
+		"minimist": "^1.2.0",
+		"pngjs": "^3.4.0"
 	}
 }
